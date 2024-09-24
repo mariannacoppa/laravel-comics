@@ -111,3 +111,4 @@ return [
     ]
 ];
 
+var_dump($comics);
