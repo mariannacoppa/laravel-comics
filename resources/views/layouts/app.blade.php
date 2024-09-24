@@ -18,6 +18,9 @@
             </div>
         </div>
     </header>
+    <main>
+        @yeld('content')
+    </main>
 </body>
 
 </html>
