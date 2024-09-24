@@ -72,3 +72,17 @@ In allegato trovate lo zip con il materiale per svolgere l'esercizio. Se per qua
 Vi lascio anche la steplist che abbiamo cominciato a creare ieri.
 Scrivete sempre il file README.md in con la traccia dell'esercizio.
 Numero minimo di push: 10
+
+Pseudocodice
+
+1. creo la cartella partials contenente i file con la struttura di header e footer
+2. creo il file contenente la struttura dell'header
+3. creo il file contenente la struttura del footer
+4. creo il file con il main della homepage
+5. creo il file layouts
+6. collego il file layouts alle sue rotte mediante la funzione extends
+7. collego la homepage a header e footer tramite la funzione include
+8. inserisco i loghi utilizzando la funzione asset in notazione buffy
+9. popolo il main della homepage ciclando e stampando le immagini
+10. inserisco il testo con la notazione buffy
+11. (bonus) inserisco lo stile alle pagine
