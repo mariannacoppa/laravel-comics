@@ -30,5 +30,12 @@ main {
 
     #comics-container {
         padding: 50px 0px;
+
+        .comic-card {
+            max-width: 100%;
+            .card-body {
+                margin-top: 10px;
+            }
+        }
     }
 }
