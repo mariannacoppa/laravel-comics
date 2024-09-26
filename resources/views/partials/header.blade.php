@@ -2,31 +2,37 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <ul class="list-unstyled d-flex justify-content-around">
-                    <li class="text-decoration-none">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="logo">
                         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc-logo" class="logo">
-                    </li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">characters</a>
-                    </li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">comics</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">movies</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">tv</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">games</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">collectibles</a>
-                    </li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">videos</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">fans</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">news</a></li>
-                    <li class="d-flex">
-                        <div class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">shop</a>
-                        </div>
-                        <i class="bi bi-chevron-down"></i>
-                    </li>
-                    <li class="d-flex">
-                        <input type="search" name="search" class="search" placeholder="Search">
-                        <i class="bi bi-search"></i>
-                    </li>
-                </ul>
+                    </div>
+                    <div class="menu">
+                        <ul class="list-unstyled d-flex m-0">
+                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">characters</a>
+                            </li>
+                            <li
+                                class="nav-item px-3 py-5 {{ Route::currentRouteName() === 'homepage' ? 'active' : '' }}">
+                                <a href="#" class="nav-link text-uppercase">comics</a>
+                            </li>
+                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">movies</a></li>
+                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">tv</a></li>
+                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">games</a></li>
+                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">collectibles</a>
+                            </li>
+                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">videos</a></li>
+                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">fans</a></li>
+                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">news</a></li>
+                            <li class="d-flex nav-item px-3 py-5">
+                                <a href="#" class="nav-link text-uppercase">shop</a>
+                                <i class="bi bi-chevron-down ms-1"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search d-flex">
+                        <input type="text" name="search" class="search" placeholder="Search &#128269;">
+                        {{-- <i class="bi bi-search"></i> --}}
+                    </div>
+                </div>
             </div>
         </div>
     </div>

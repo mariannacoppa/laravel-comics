@@ -2,15 +2,19 @@
 
 .logo {
     img {
-        width: 75px;
+        width: 70px;
     }
 }
 
 .search {
     input {
         border: none;
-        border-bottom: 3px solid blue;
+        border-bottom: 3px solid #0079ed;
     }
+}
+
+.nav-item.active {
+    border-bottom: 5px solid #0079ed;
 }
 
 #jumbotron {
