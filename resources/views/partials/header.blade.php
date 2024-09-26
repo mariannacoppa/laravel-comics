@@ -48,7 +48,6 @@
                     <div class="search d-flex">
                         <input type="text" name="search" class="search" placeholder="Search">
                         <i class="bi bi-search"></i>
-                        {{-- &#128269; --}}
                     </div>
                 </div>
             </div>

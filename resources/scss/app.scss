@@ -55,3 +55,37 @@ main {
         }
     }
 }
+
+footer {
+    color: rgb(139, 135, 135);
+    height: 600px;
+    .bg-top {
+        background-image: url("../img/footer-bg.jpg");
+
+        li {
+            font-size: 10px;
+            a {
+                text-decoration: none;
+                color: #999898;
+            }
+        }
+        .col-md-6 {
+            background-image: url("../img/dc-logo-bg.png");
+            background-size: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    .bg-bottom {
+        background-color: #303030;
+        .content {
+            height: 70px;
+        }
+        .btn {
+            border: 1px solid #0d6efd;
+        }
+        img {
+            height: 20px;
+        }
+    }
+}
