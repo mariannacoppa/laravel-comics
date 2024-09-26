@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h2>Jumbotron</h2>
+                    <h2 class="text-center">Jumbotron</h2>
                 </div>
             </div>
         </div>
@@ -14,7 +14,7 @@
     <div id="container">
         <div class="row">
             <div class="col-12">
-                FUMETTI QUI
+                <h2 class="text-center">FUMETTI QUI</h2>
             </div>
         </div>
     </div>

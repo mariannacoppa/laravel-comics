@@ -1,4 +1,3 @@
-@extends('layouts.app')
 <header>
     <div class="container">
         <div class="row">
@@ -7,17 +6,20 @@
                     <li class="text-decoration-none">
                         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc-logo" class="logo">
                     </li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">characters</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">comics</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">movies</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">tv</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">games</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">collectibles</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">videos</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">fans</a></li>
-                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase">news</a></li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">characters</a>
+                    </li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">comics</a></li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">movies</a></li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">tv</a></li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">games</a></li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">collectibles</a>
+                    </li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">videos</a></li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">fans</a></li>
+                    <li class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">news</a></li>
                     <li class="d-flex">
-                        <div class="text-decoration-none"><a href="#" class="nav-link text-uppercase">shop</a></div>
+                        <div class="text-decoration-none"><a href="#" class="nav-link text-uppercase mt-5">shop</a>
+                        </div>
                         <i class="bi bi-chevron-down"></i>
                     </li>
                     <li class="d-flex">
