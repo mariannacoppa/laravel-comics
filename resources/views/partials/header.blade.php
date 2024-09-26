@@ -1,4 +1,21 @@
 <header>
+    <div class="bg-primary">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-end">
+                        <div class="text-uppercase text-light m-1 me-3">
+                            dc power&#8480; visa&circledR;
+                        </div>
+                        <div class="text-uppercase text-light m-1">
+                            additional dc sites
+                        </div>
+                        <i class="bi bi-chevron-down text-light mt-1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -29,8 +46,9 @@
                         </ul>
                     </div>
                     <div class="search d-flex">
-                        <input type="text" name="search" class="search" placeholder="Search &#128269;">
-                        {{-- <i class="bi bi-search"></i> --}}
+                        <input type="text" name="search" class="search" placeholder="Search">
+                        <i class="bi bi-search"></i>
+                        {{-- &#128269; --}}
                     </div>
                 </div>
             </div>

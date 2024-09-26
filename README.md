@@ -75,14 +75,11 @@ Numero minimo di push: 10
 
 Pseudocodice
 
-1. creo la cartella partials contenente i file con la struttura di header e footer
-2. creo il file contenente la struttura dell'header
-3. creo il file contenente la struttura del footer
-4. creo il file con il main della homepage
-5. creo il file layouts
-6. collego il file layouts alle sue rotte mediante la funzione extends
-7. collego la homepage a header e footer tramite la funzione include
-8. inserisco i loghi utilizzando la funzione asset in notazione buffy
-9. popolo il main della homepage ciclando e stampando le immagini
-10. inserisco il testo con la notazione buffy
-11. (bonus) inserisco lo stile alle pagine
+0. cancello il file welcome.php e creo il file home
+1. cambio il nome del file da welcome a home nel file web.php (sarà il file che verrà restituito nella view)
+2. creo layout in cui inserisco la pagina creata tramite lo yield
+3. creo partials per header e footer da includere nel file di layout
+4. creo un file nella cartella config contenente un array di fumetti che andranno visualizzati
+5. recupero il contenuto del file di cui sopra nella rotta tramite il metoo config, in cui inserisco il nome del file
+6. lo restituisco alla view tramite il metodo compact
+7. visualizzo i fumetti ciclandoli con il metodo foreach
