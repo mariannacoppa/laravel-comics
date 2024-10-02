@@ -14,14 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $bluethumbs = config('dbbluethumbs');
     $comics = config('db');
     $shops = config('dbshops');
     $dcs = config('dbdcs');
     $sites = config('dbsites');
-    return view('home', compact('comics', 'shops', 'dcs', 'sites'));
+    $dccomics = config('dbdccomics');
+    return view('home', compact('bluethumbs', 'comics', 'shops', 'dcs', 'sites', 'dccomics'));
 })->name('homepage');
-
-// Route::get('/', function () {
-//     $shops = config('dbshops');
-//     return view('home', compact('shops'));
-// })->name('homepage');

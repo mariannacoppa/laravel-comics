@@ -1,26 +1,32 @@
 @import "~bootstrap/scss/bootstrap";
 
-.logo {
-    img {
-        width: 70px;
+header {
+    height: 150px;
+    .bg-primary {
+        font-size: 10px;
     }
-}
-
-.search {
-    border-bottom: 3px solid #0079ed;
-    input {
-        border: none;
-        width: 150px;
-        text-align: right;
+    .logo {
+        img {
+            width: 70px;
+        }
     }
-}
 
-.nav-item.active {
-    border-bottom: 5px solid #0079ed;
+    .search {
+        border-bottom: 3px solid #0079ed;
+        input {
+            border: none;
+            width: 150px;
+            text-align: right;
+        }
+    }
+
+    .nav-item.active {
+        border-bottom: 5px solid #0079ed;
+    }
 }
 
 #jumbotron {
-    background-image: url("../img/jumbotron.jpg");
+    background-image: url("/storage/img/jumbotron.jpg");
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,13 +60,24 @@ main {
             }
         }
     }
+    .bg-primary {
+        a {
+            text-transform: uppercase;
+            font-size: 8px;
+            color: white;
+            text-decoration: none;
+        }
+        img {
+            width: 20px;
+            padding-right: 5px;
+        }
+    }
 }
 
 footer {
     color: rgb(139, 135, 135);
-    height: 600px;
     .bg-top {
-        background-image: url("../img/footer-bg.jpg");
+        background-image: url("/storage/img/footer-bg.jpg");
 
         li {
             font-size: 10px;
@@ -70,7 +87,7 @@ footer {
             }
         }
         .col-md-6 {
-            background-image: url("../img/dc-logo-bg.png");
+            background-image: url("/storage/img/dc-logo-bg.png");
             background-size: 400px;
             background-position: center;
             background-repeat: no-repeat;

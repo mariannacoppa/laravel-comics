@@ -21,25 +21,25 @@
             <div class="col-12">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="logo">
-                        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="dc-logo" class="logo">
+                        <img src="{{ Vite::asset('storage/img/dc-logo.png') }}" alt="dc-logo" class="logo">
                     </div>
                     <div class="menu">
-                        <ul class="list-unstyled d-flex m-0">
-                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">characters</a>
+                        <ul class="list-unstyled d-flex mt-4">
+                            <li class="nav-item px-3 py-4"><a href="#" class="nav-link text-uppercase">characters</a>
                             </li>
                             <li
-                                class="nav-item px-3 py-5 {{ Route::currentRouteName() === 'homepage' ? 'active' : '' }}">
+                                class="nav-item px-3 py-4 {{ Route::currentRouteName() === 'homepage' ? 'active' : '' }}">
                                 <a href="#" class="nav-link text-uppercase">comics</a>
                             </li>
-                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">movies</a></li>
-                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">tv</a></li>
-                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">games</a></li>
-                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">collectibles</a>
+                            <li class="nav-item px-3 py-4"><a href="#" class="nav-link text-uppercase">movies</a></li>
+                            <li class="nav-item px-3 py-4"><a href="#" class="nav-link text-uppercase">tv</a></li>
+                            <li class="nav-item px-3 py-4"><a href="#" class="nav-link text-uppercase">games</a></li>
+                            <li class="nav-item px-3 py-4"><a href="#" class="nav-link text-uppercase">collectibles</a>
                             </li>
-                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">videos</a></li>
-                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">fans</a></li>
-                            <li class="nav-item px-3 py-5"><a href="#" class="nav-link text-uppercase">news</a></li>
-                            <li class="d-flex nav-item px-3 py-5">
+                            <li class="nav-item px-3 py-4"><a href="#" class="nav-link text-uppercase">videos</a></li>
+                            <li class="nav-item px-3 py-4"><a href="#" class="nav-link text-uppercase">fans</a></li>
+                            <li class="nav-item px-3 py-4"><a href="#" class="nav-link text-uppercase">news</a></li>
+                            <li class="d-flex nav-item px-3 py-4">
                                 <a href="#" class="nav-link text-uppercase">shop</a>
                                 <i class="bi bi-chevron-down ms-1"></i>
                             </li>

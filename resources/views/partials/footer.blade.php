@@ -6,8 +6,8 @@
                     <div class="content my-4">
                         <h6 class="text-white">DC COMICS</h6>
                         <ul class="list-unstyled">
-                            @foreach ($dcs as $dc)
-                            <li>{{ $dc['label'] }}</li>
+                            @foreach ($dccomics as $dccomic)
+                            <li>{{ $dccomic['label'] }}</li>
                             @endforeach
                         </ul>
                         <h6 class="text-white">SHOP</h6>
@@ -22,6 +22,9 @@
                     <div class="content my-4">
                         <h6 class="text-white">DC</h6>
                         <ul class="list-unstyled">
+                            @foreach ($dcs as $dc)
+                            <li>{{ $dc['label'] }}</li>
+                            @endforeach
                         </ul>
                     </div>
                 </div>
@@ -50,11 +53,11 @@
                             <div class="text-primary">
                                 FOLLOW US
                             </div>
-                            <img class="ms-3" src="{{ Vite::asset('/resources/img/footer-facebook.png') }}" alt="">
-                            <img class="ms-3" src="{{ Vite::asset('/resources/img/footer-twitter.png') }}" alt="">
-                            <img class="ms-3" src="{{ Vite::asset('/resources/img/footer-youtube.png') }}" alt="">
-                            <img class="ms-3" src="{{ Vite::asset('/resources/img/footer-pinterest.png') }}" alt="">
-                            <img class="ms-3" src="{{ Vite::asset('/resources/img/footer-periscope.png') }}" alt="">
+                            <img class="ms-3" src="{{ Vite::asset('storage/img/footer-facebook.png') }}" alt="">
+                            <img class="ms-3" src="{{ Vite::asset('storage/img/footer-twitter.png') }}" alt="">
+                            <img class="ms-3" src="{{ Vite::asset('storage/img/footer-youtube.png') }}" alt="">
+                            <img class="ms-3" src="{{ Vite::asset('storage/img/footer-pinterest.png') }}" alt="">
+                            <img class="ms-3" src="{{ Vite::asset('storage/img/footer-periscope.png') }}" alt="">
                         </div>
                     </div>
                 </div>
